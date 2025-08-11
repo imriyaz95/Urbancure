@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>UrbenCure — Home Blood Tests, Sample Collection & Home Visits</title>
+  <meta name="description" content="UrbenCure provides home blood tests, sample collection, and qualified doctors & nurses for home visits. Easy booking, trusted staff, fast results." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="data:," />
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased">
+  <header class="bg-white shadow">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 bg-red-500 rounded-md flex items-center justify-center text-white font-bold">U</div>
+        <div>
+          <a href="#" class="text-xl font-semibold">UrbenCure</a>
+          <div class="text-xs text-gray-500">Home Health | Sample Collection</div>
+        </div>
+      </div>
+      <nav class="hidden md:flex gap-6 items-center text-sm">
+        <a href="#services" class="hover:text-red-600">Services</a>
+        <a href="#how" class="hover:text-red-600">How it works</a>
+        <a href="#book" class="hover:text-red-600">Book</a>
+        <a href="#contact" class="hover:text-red-600">Contact</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <a href="#book" class="px-4 py-2 bg-red-600 text-white rounded-md text-sm">Book a Visit</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-6 py-12">
+    <!-- HERO -->
+    <section class="grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h1 class="text-3xl md:text-4xl font-extrabold leading-tight">Home blood tests, sample collection & trusted medical staff — at your doorstep</h1>
+        <p class="mt-4 text-gray-600">Fast, safe and comfortable lab sample collection in the comfort of your home. We also provide verified doctors and nurses for home visits and continuity of care.</p>
+
+        <ul class="mt-6 space-y-2 text-sm">
+          <li>• Blood tests: routine, hormones, vitamin, diabetic panels</li>
+          <li>• Home sample collection by trained phlebotomists</li>
+          <li>• Doctor & nurse home visits on demand</li>
+        </ul>
+
+        <div class="mt-6 flex gap-3">
+          <a href="#book" class="px-5 py-3 bg-red-600 text-white rounded-md">Book a Visit</a>
+          <a href="#contact" class="px-5 py-3 border border-gray-200 rounded-md">Contact Us</a>
+        </div>
+      </div>
+      <div>
+        <img src="https://source.unsplash.com/800x600/?phlebotomist,medical" alt="Phlebotomist at home" class="rounded-lg shadow" />
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="mt-12">
+      <h2 class="text-2xl font-bold">Our Services</h2>
+      <p class="text-gray-600 mt-2">Designed for convenience and reliability.</p>
+
+      <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-white p-5 rounded-xl shadow-sm">
+          <h3 class="font-semibold">Blood Tests</h3>
+          <p class="text-sm text-gray-600 mt-2">Full range of lab tests — done at home or collected and processed at partner labs.</p>
+        </div>
+        <div class="bg-white p-5 rounded-xl shadow-sm">
+          <h3 class="font-semibold">Sample Collection</h3>
+          <p class="text-sm text-gray-600 mt-2">Trained phlebotomists follow strict safety & cold-chain protocols for accurate results.</p>
+        </div>
+        <div class="bg-white p-5 rounded-xl shadow-sm">
+          <h3 class="font-semibold">Home Visits</h3>
+          <p class="text-sm text-gray-600 mt-2">Doctors and nurses available for consults, injections, wound care and monitoring.</p>
+        </div>
+        <div class="bg-white p-5 rounded-xl shadow-sm">
+          <h3 class="font-semibold">Corporate & Bulk</h3>
+          <p class="text-sm text-gray-600 mt-2">Health camps, corporate screening, and recurring sample collections.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="how" class="mt-12 bg-white p-6 rounded-xl shadow-sm">
+      <h2 class="text-xl font-bold">How it works</h2>
+      <div class="mt-4 grid md:grid-cols-3 gap-4">
+        <div class="p-4">
+          <div class="text-2xl font-bold">1</div>
+          <h4 class="font-semibold mt-2">Book online or call</h4>
+          <p class="text-sm text-gray-600 mt-1">Choose service, pick date/time and share basic details.</p>
+        </div>
+        <div class="p-4">
+          <div class="text-2xl font-bold">2</div>
+          <h4 class="font-semibold mt-2">Phlebotomist visits</h4>
+          <p class="text-sm text-gray-600 mt-1">Trained staff collect samples following safety & labeling protocols.</p>
+        </div>
+        <div class="p-4">
+          <div class="text-2xl font-bold">3</div>
+          <h4 class="font-semibold mt-2">Results & follow-up</h4>
+          <p class="text-sm text-gray-600 mt-1">Results delivered securely; doctors available for follow-up if needed.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOOKING FORM -->
+    <section id="book" class="mt-12">
+      <h2 class="text-2xl font-bold">Book a home visit</h2>
+      <p class="text-gray-600 mt-2">Fill this form and our team will confirm by phone.</p>
+
+      <form id="bookingForm" class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4 bg-white p-6 rounded-xl shadow-sm">
+        <div>
+          <label class="text-sm font-medium">Full name</label>
+          <input required id="name" class="mt-1 w-full border rounded-md px-3 py-2" placeholder="Your name" />
+        </div>
+        <div>
+          <label class="text-sm font-medium">Phone</label>
+          <input required id="phone" class="mt-1 w-full border rounded-md px-3 py-2" placeholder="+91 98xxxxxxx" />
+        </div>
+        <div class="md:col-span-2">
+          <label class="text-sm font-medium">Address</label>
+          <input required id="address" class="mt-1 w-full border rounded-md px-3 py-2" placeholder="House, Street, City, PIN" />
+        </div>
+        <div>
+          <label class="text-sm font-medium">Service</label>
+          <select id="service" class="mt-1 w-full border rounded-md px-3 py-2">
+            <option>Home blood sample collection</option>
+            <option>Doctor visit</option>
+            <option>Nurse visit / care</option>
+            <option>Corporate / Bulk collection</option>
+          </select>
+        </div>
+        <div>
+          <label class="text-sm font-medium">Preferred date & time</label>
+          <input id="datetime" type="datetime-local" class="mt-1 w-full border rounded-md px-3 py-2" />
+        </div>
+        <div class="md:col-span-2">
+          <label class="text-sm font-medium">Notes / tests required</label>
+          <textarea id="notes" class="mt-1 w-full border rounded-md px-3 py-2" rows="3" placeholder="e.g. CBC, LFT, Vitamin D"></textarea>
+        </div>
+
+        <div class="md:col-span-2 flex items-center gap-3">
+          <button type="submit" class="px-4 py-2 bg-red-600 text-white rounded-md">Submit booking</button>
+          <div id="formMessage" class="text-sm text-green-600"></div>
+        </div>
+      </form>
+
+      <script>
+        document.getElementById('bookingForm').addEventListener('submit', function(e){
+          e.preventDefault();
+          const name = document.getElementById('name').value.trim();
+          const phone = document.getElementById('phone').value.trim();
+          const address = document.getElementById('address').value.trim();
+          const service = document.getElementById('service').value;
+          const datetime = document.getElementById('datetime').value;
+          const notes = document.getElementById('notes').value.trim();
+
+          if(!name || !phone || !address){
+            document.getElementById('formMessage').innerText = 'Please fill name, phone and address.';
+            return;
+          }
+
+          // Temporary: open mail client with booking details. Replace with proper backend when ready.
+          const subject = encodeURIComponent('UrbenCure Booking: ' + name);
+          const body = encodeURIComponent(`Name: ${name}\nPhone: ${phone}\nAddress: ${address}\nService: ${service}\nDate/Time: ${datetime}\nNotes: ${notes}`);
+          window.location.href = `mailto:bookings@urbencure.in?subject=${subject}&body=${body}`;
+
+          document.getElementById('formMessage').innerText = 'Opening your mail client to complete booking. Or we will call you shortly.';
+        });
+      </script>
+    </section>
+
+    <!-- TESTIMONIALS / FAQ -->
+    <section class="mt-12 grid md:grid-cols-2 gap-6">
+      <div class="bg-white p-6 rounded-xl shadow-sm">
+        <h3 class="font-semibold">Why choose UrbenCure?</h3>
+        <ul class="mt-3 text-sm text-gray-600 space-y-2">
+          <li>• Trained & verified staff</li>
+          <li>• Sterile single-use kits & cold-chain transport</li>
+          <li>• Flexible scheduling & corporate packages</li>
+        </ul>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow-sm">
+        <h3 class="font-semibold">FAQ</h3>
+        <div class="mt-3 text-sm text-gray-600 space-y-2">
+          <p><strong>Do you send reports?</strong><br/>Yes — results are sent via email or WhatsApp depending on the lab.</p>
+          <p><strong>Are staff verified?</strong><br/>All phlebotomists, nurses and doctors carry ID and verification records.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="mt-12">
+      <div class="bg-white p-6 rounded-xl shadow-sm">
+        <h3 class="text-xl font-semibold">Contact & Support</h3>
+        <p class="text-sm text-gray-600 mt-2">Phone: +91-XXXXXXXXXX<br/>Email: support@urbencure.in</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-white border-t mt-12">
+    <div class="max-w-6xl mx-auto px-6 py-6 text-sm text-gray-600">
+      © <span id="year"></span> UrbenCure. All rights reserved. | <a href="#" class="underline">Privacy</a> | <a href="#" class="underline">Terms</a>
+    </div>
+    <script>document.getElementById('year').innerText = new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>
